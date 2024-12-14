@@ -9,7 +9,7 @@ Categories: Users can explore various travel-related categories, including Hotel
 - HTML for the structure
 - CSS for styling and layout, with media queries for responsiveness
 - Font Awesome for elegant icons
-- 
+
 ## Contributing
 -This project has been an incredible learning experience, allowing me to enhance my front-end development skills
 
