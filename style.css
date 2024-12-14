@@ -1,0 +1,428 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    font-family: "Gabarito", serif;
+}
+.navbar{
+    position:sticky;
+    top:0;
+
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-left:5%;
+    margin-right:5%; 
+    position: sticky;
+    top: 0;
+    background-color: white;  
+    z-index: 3;
+}
+
+.nav__s1 img{
+    
+    width:100%;
+    height:80px; 
+}
+
+.nav__options{
+    width: 30%;
+}
+.nav__s2 ,.nav__s3 p{
+    font-weight:bolder;
+    font-size:medium;
+    
+}
+
+.nav__s2{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav__s2 p{
+    padding: 10px;
+    width: fit-content;
+}
+.nav__s2 a{
+    color: black;
+    text-decoration: none;
+}
+.nav__s2 a:hover{
+    text-decoration:underline;
+    opacity: 0.8;
+}
+
+.nav__s2 p:hover{
+    background-color:bisque;
+    border-radius: 20px;
+
+}
+.nav__s2__one:hover{
+    text-decoration: dashed;
+}
+
+.nav__s3{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width:fit-content;
+
+}
+
+.nav__s3 p{
+    padding: 10px;
+    text-align: center;
+}
+
+
+.nav__s3__one:hover
+{
+    background-color:khaki;
+    border-radius: 20px;   
+}
+
+.nav__s3__two p{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    
+
+}
+.nav__s3__two:hover{
+    opacity: 0.8;
+}
+
+.where{
+    font-size:x-large;
+    display:flex;
+    padding:3%;
+    margin-left:37%;
+}
+
+.facility{
+
+    display:flex;
+    margin-left: 150px;
+    padding:10px;
+    justify-content:center;
+    align-items:center;
+    gap:7%;
+    cursor:pointer;
+}
+.facility__things{
+    display:flex;
+
+}
+.facility__things p{
+
+    margin-top:5px;
+}
+.facility__things:hover{
+    text-decoration: underline;
+}
+
+.searchbar{
+    padding:10px;
+    border:solid black 1px;
+    border-radius:35px;
+    width:60%;
+    height:20%;
+    display:flex;
+    gap:10px;
+    transform:translateX(35%);
+    position:sticky;
+    top:0;
+    background-color: white;
+
+}
+.searchbar input{
+    border:none;
+    width:100%;
+    font-size:16px;
+    background-color: transparent;
+}
+.searchbar input:focus{
+
+    outline:none;
+}
+.click3{
+    width:90px;
+    height:40px;
+    border-radius:30px;
+    position:relative;
+    background-color:green;
+    border:transparent;
+    font-size:medium;
+   
+}
+.click3:hover{
+    background-color:palegreen;
+    transition: 2s;
+}
+.trip-card{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    position: relative;
+
+}
+.trip-card img{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.memories{
+
+   position: absolute;
+    color: white;
+    font-size: larger;
+    bottom:100px;
+    left: 20px;    
+}
+
+.memories_button{
+    width: 100px;
+    height:50px;
+    font-size: medium;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+
+}
+.choices{
+    padding:5px;
+    margin:5px;
+   
+}
+.choices__container{   
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:10px;
+    padding:10px;
+    vertical-align: top;
+    
+}
+.choices-card{
+    flex-grow:1;
+    width:20px;
+    margin:5px;
+    flex-basis:20%;
+}
+.choices-card img{
+    width:100%;
+    height:70%;
+    border-radius:5%;
+
+}
+.travelcreators{
+    padding:5px;
+     margin:5px;
+
+}
+.travel__creators{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:10px;
+    padding:10px;
+    vertical-align: top;
+}
+.travel-creators__images{
+    flex-grow:1;
+    width:20px;
+    margin: 5px;
+    flex-basis:20%;
+
+}
+.travel-creators__images img{
+
+    width:100%;
+    height:85%;
+    border-radius:5%;
+}
+.travel-creators__images h3{
+
+    text-align: center;
+}
+.travel-creators__images  p{
+text-align: center;
+
+}
+.booking{
+  
+    padding:2%;
+    margin:2%;
+}
+.book{
+
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    margin:1%;
+    padding:1%;
+    vertical-align: top;
+    
+}
+
+.book-experience{
+    flex-grow:1;
+    width:20px;
+    margin: 5px;
+    flex-basis:20%;
+    
+
+}
+.book-experience img{
+
+    width:100%;
+    height:60%;
+    border-radius:5%;
+}
+.explore{
+    background-color: beige;
+    height:70%;
+    padding:1%;
+    margin:1%;
+}
+
+.explore_container{
+    
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+    margin:10px;
+    padding:10px;
+    vertical-align: top;
+    
+}
+.exploring-places{
+    flex-grow:1;
+    width:20px;
+    margin:1%;
+    flex-basis:20%;
+}
+.exploring-places img{
+
+    width:100%;
+    height:100%;
+    border-radius:5%;
+
+}
+.exploring-places h2{
+    font-size:small;
+}
+.topdestination{
+    margin-left:3%;
+    
+
+}
+.top_destination{
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+    margin:10px;
+    padding:10px;
+    vertical-align: top;
+}
+.top_destination_places {
+    flex-grow:1;
+    width:20px;
+    margin:1%;
+    flex-basis:20%;
+}
+    
+.top_destination_places img{
+    
+    width:100%;
+    height:100%;
+    border-radius:5%;
+
+}
+
+.footer{
+    padding:10px;
+    background-color:grey;
+    color:black;
+}
+.footer__one{
+    display:flex;
+    gap:20px;
+    cursor:pointer;
+}
+.footer__one p{
+    margin:10px;
+
+}
+.footer__one__s1 p:hover{
+    text-decoration: underline;
+
+}
+
+.footer__two{
+    display:flex;
+    gap:20px;    
+}
+.footer__two__s1{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer__two__s2{
+    display:flex;
+    width: 50%;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.footer__one__s2 p:hover{
+    text-decoration: underline;
+}
+.footer__one__s3 p:hover{
+    text-decoration: underline;
+}
+.footer__three{
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+    cursor: pointer;
+}
+.footer__three__s1{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 60%;
+    gap: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+@media  screen and (max-width:800px) {
+
+    body{
+        font-size: 10px;
+    
+    }
+    .nav__options{
+        display: none;
+    }
+}
+
+    @media screen and (max-width:500px){
+        .nav__options{
+            display: none;
+        }
+        .options{
+            display: none;
+        }
+        .choices-card{
+            flex-basis: 40%;
+        }
+        .explore_container{
+            flex-basis:40%;
+
+    }
+}
